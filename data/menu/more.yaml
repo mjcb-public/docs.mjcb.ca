@@ -1,0 +1,10 @@
+---
+more:
+  - name: mjcb.ca
+    ref: "https://mjcb.ca/"
+    external: true
+    icon: "gdoc_home"
+  - name: GitHub
+    ref: "https://github.com/mjcb-public/docs.mjcb.ca/"
+    external: true
+    icon: gdoc_github
