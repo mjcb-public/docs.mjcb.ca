@@ -1,8 +1,8 @@
 # docs.mjcb.ca #
 
-This is the Git repository is for the **docs.mjcb.ca** website that is currently using the Hugo CMS platform and is deployed using the Netlify platform.
+This is the Git repository is for the **docs.mjcb.ca** website that is currently using the Hugo CMS platform and is deployed using the Netlify platform. This website hosts various documentation for the [mjcb.ca](https://mjcb.ca/) website, as well as other documentation from other sources.
 
-This website hosts various documentation for the [mjcb.ca](https://mjcb.ca/) website, as well as other documentation from other sources.
+This website was migrated from the **docs.mjcb.ca** domain in early 2025.
 
 ## Theme ##
 
@@ -22,4 +22,44 @@ See the [LICENSE](https://github.com/mjcb-public/docs.mjcb.ca/blob/main/LICENSE)
 
 ## Netlify Status ##
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d6f486ae-752d-488d-b7e1-4e5c2c369f33/deploy-status)](https://app.netlify.com/sites/superlative-sopapillas-49fa24/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f124f940-914e-4c7f-a10e-fe471dcc11de/deploy-status)](https://app.netlify.com/sites/docsmjcbca/deploys)
+
+## File and Folder Structure ##
+
+```
+.
+├── /
+│   ├── content/
+│   ├── layouts/
+│   │   └── partials/
+│   │       └── gdpr-notice.html
+│   ├── static/
+│   │   ├── docs/
+|   |   ├── gdpr-notice/
+│   │   │   ├── gdpr-notice.css
+│   │   │   └── gdpr-notice.js
+|   |   ├── images/
+|   |   └── robots.txt
+│   └── themes/
+|       └── hugo-geekdoc/
+├── config.toml
+├── LICENSE
+├── netlify.toml
+└── README.md
+```
+
+### Important Files ###
+
+* **/config.toml** - Primary configuration file for Hugo. It is in TOML format.
+* **/LICENSE** - License information for this website.
+* **/netlify.toml** - Primary configuration file for Hugo deployment on the Netlify platform. It is in TOML format.
+* **/README.md** - This README file.
+
+### Important Folders ###
+
+* **/content/** - Contains all posts.
+* **/layouts/partials/** - Contains all partial templates which are added to the existing theme.
+* **/static/** - Contains all content that is placed in the root of the website when rendered by Hugo.
+* **/static/docs/** - Contains all linked documents for posts. Directories are named to match the post.
+* **/static/gdpr-notice/** - Contains the necessary files for the GDPR notice for the website.
+* **/static/images/** - Contains all images.
