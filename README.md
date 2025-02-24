@@ -61,5 +61,5 @@ See the [LICENSE](https://github.com/mjcb-public/docs.mjcb.ca/blob/main/LICENSE)
 * **/layouts/partials/** - Contains all partial templates which are added to the existing theme.
 * **/static/** - Contains all content that is placed in the root of the website when rendered by Hugo.
 * **/static/docs/** - Contains all linked documents for posts. Directories are named to match the post.
-* **/static/gdpr-notice/** - Contains the necessary files for the GDPR notice for the website.
+* **/static/gdpr-notice/** - Contains the necessary files for the GDPR notice for the website (if necessary).
 * **/static/images/** - Contains all images.
