@@ -19,12 +19,12 @@ Starting with Windows 10, version builds of Windows 11 are labelled as **YYHX**.
 
 The General Availability Channel (GAC) consists of the Home, Pro, Enterprise and IoT versions of Windows 11. These versions are generally supported for up to 3 years after the release date.
 
-| Version | Codename      | Marketing Name | Build | Release Date       | Supported (Home, Pro) | Supported (Enterprise, IoT) |
-|:--------|:--------------|:---------------|:------|:-------------------|:----------------------|:----------------------------|
-| 21H2    | Sun Valley    | N/A            | 22000 | October 4, 2021    | October 10, 2023      | October 8, 2024             |
-| 22H2    | Sun Valley 2  | 2022 Update    | 22621 | September 20, 2022 | October 8, 2024       | October 14, 2025            |
-| 23H2    | Sun Valley 3  | 2023 Update    | 22631 | October 31, 2023   | November 11, 2025     | November 10, 2025           |
-| 24H2    | Hudson Valley | 2024 Update    | 26100 | October 1, 2024    | October 13, 2026      | October 12, 2027            |
+| Version | Codename      | Marketing Name | Build | Release Date       | Supported (Home, Pro) | Supported (Education, Enterprise, IoT) |
+|:--------|:--------------|:---------------|:------|:-------------------|:----------------------|:---------------------------------------|
+| 21H2    | Sun Valley    | N/A            | 22000 | October 5, 2021    | October 10, 2023      | October 8, 2024                        |
+| 22H2    | Sun Valley 2  | 2022 Update    | 22621 | September 20, 2022 | October 8, 2024       | October 14, 2025                       |
+| 23H2    | Sun Valley 3  | 2023 Update    | 22631 | October 31, 2023   | November 11, 2025     | November 10, 2026                      |
+| 24H2    | Hudson Valley | 2024 Update    | 26100 | October 1, 2024    | October 13, 2026      | October 12, 2027                       |
 
 ### Long-Term Servicing Channel (LTSC) ###
 
